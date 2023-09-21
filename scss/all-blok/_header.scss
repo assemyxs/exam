@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    max-width: 926px;
+}
+header{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto
+
+}
+header .container nav ul{
+    @include display;
+    list-style: none;
+    
+}
+header .container nav ul a{
+    text-decoration: none;
+    color: black;
+}
+header .container nav ul a span{
+    color: $secondary-coor;
+}
+.header-img{
+    position: absolute;
+    width: 200px;
+    margin-left: 1105px;
+}
+.cartoon{
+    max-width: 500px;
+    height: 340px;
+    margin-top: 224px;
+    margin-left: 124px;
+}
+.cartoon h1{
+    width: 596px;
+    font-size: 50px;
+}
+.cartoon p{
+    width: 332px;
+    color: #2B2B2B;
+    font-size: 23px;
+}
+.cartoon button{
+    width: 245px;
+    height: 67px;
+    background-color: $secondary-coor;
+    border: none;
+    color: $primary-color;
+    font-size: 14px;
+    border-radius: 67px;
+}
+.flex{
+    display: flex;
+}
+.back a img{
+    width: 900px;
+    margin-top: 204px;
+    margin-left: -200px;
+}
+.img-barg{
+    @include position;
+    margin-top: 380px;
+    margin-left: -40px;
+}

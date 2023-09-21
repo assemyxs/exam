@@ -1,0 +1,124 @@
+.container-2{
+    max-width: 1700px;
+    width: 100%;
+    height: 378px;
+    border: 1px solid $secondary-coor;
+    margin: 0 auto;
+    background-color: $secondary-coor;
+    margin-top: 101px;
+}
+.woma-img{
+    @include position;
+    margin-top: -244px;
+    margin-left: -100px;
+    
+}
+.barg-2-img{
+    @include position;
+    z-index: 2;
+    margin-top: 70px;
+    margin-left: -90px;
+}
+.ivan-img{
+    @include position;
+    z-index: 3;
+    margin-top: -30px;
+    margin-left: -90px;
+}
+.pochemu{
+    margin-left: 530px;
+    @include size;
+    width:100%;
+    color: $primary-color;
+}
+.mabes{
+    @include display
+}
+.mabes-1{
+    width: 300px;
+    height: 112px;
+    margin-left: 500px;
+    color: $primary-color;
+    font-size: 20px;
+}
+.mabes-2{
+    color: $primary-color;
+    font-size: 20px;
+}
+ 
+.container-3{
+    max-width: 1700px;
+    width: 100%;
+    height: 667px;
+    margin: 0 auto;
+    margin-top: 155px
+}
+.zdorv{
+    @include size;
+    margin-left: 603px;
+    width: 589px;
+    color: $secondary-coor;
+}
+.bloks{
+    @include display;
+     column-gap: -120px;
+}
+.mansion img{
+    width: 550px;
+}
+.bloks :nth-child(2){
+    margin-top: -50px;
+}
+.container-4{
+    max-width: 1700px;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+.blocks{
+    @include display;
+   
+}
+.cartoonn{
+    max-width: 500px;
+    height: 340px;
+  margin-top: 200px;
+    margin-left: -134px;
+
+}
+.cartoonn h1{
+    width: 796px;
+    font-size: 50px;
+    color: $secondary-coor;
+    @include size;
+}
+.cartoonn p{
+    width: 332px;
+    color: #2B2B2B;
+    font-size: 23px;
+}
+.cartoonn button{
+    width: 245px;
+    height: 67px;
+    background-color: $secondary-coor;
+    border: none;
+    color: $primary-color;
+    font-size: 14px;
+    border-radius: 67px;
+}
+.container-4{
+ 
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mk{
+    background-image: url(../img/backround.png);  
+    width: 1700px;
+    margin: 0 auto;
+}
+.tree{
+    position: absolute;
+    z-index: -1;
+    margin-top: 250px;
+}

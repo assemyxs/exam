@@ -1,0 +1,11 @@
+@mixin display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin size{
+    font-size: 41px;
+}
+@mixin position{
+    position: absolute;
+}
